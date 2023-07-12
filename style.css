@@ -5,6 +5,11 @@ body {
     font-size: 1em;
 }
 
+p {
+    padding: 1em;
+    border: 1px solid white;
+}
+
 a {
     color: #ffbd59;
 }
