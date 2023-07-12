@@ -46,6 +46,10 @@ h1 {
 
 h2, h3, h4 {
     font-family: 'Noto Sans', sans-serif;
+<<<<<<< HEAD
     font-size: 1.8em;
     text-align: center;
+=======
+    font-size: 1.7em;
+>>>>>>> 5f612f0 (Modification CSS)
 }
