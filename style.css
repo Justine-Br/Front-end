@@ -5,6 +5,23 @@ body {
     font-size: 1em;
 }
 
+header {
+    border-style: solid;
+}
+
+.banniere {
+    background-image: url(images/Shumukh.webp);
+    padding: 10%;
+    background-size: cover;
+    background-position: center;
+}
+
+ul {
+    list-style: none;
+    display: inline-block;
+}
+
+
 p {
     padding: 1em;
     border: 1px solid white;
@@ -22,9 +39,13 @@ h1 {
     font-family: 'Noto Sans', sans-serif;
     font-size: 3em;
     font-variant: small-caps;
+    text-align: center;
+    margin: 65px;
+    opacity: 1;
 }
 
 h2, h3, h4 {
     font-family: 'Noto Sans', sans-serif;
     font-size: 1.8em;
+    text-align: center;
 }
