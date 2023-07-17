@@ -1,12 +1,16 @@
 
 body {
     background: url(../img/fond.png);
+    margin-top: 1px;
 }
 
 header {
     background-color:#F9E78E;
     width: 70%;
     margin: auto;
+}
+
+.picture {
     padding: 12px;
 }
 
@@ -21,7 +25,7 @@ nav a {
     text-decoration: none;
     text-transform: uppercase;
     display: flex;
-    padding: 30px; 
+    padding: 40px; 
     margin: 10px;
 }
 
@@ -31,17 +35,55 @@ main {
     margin: auto
 }
 
+.fa-solid fa-mask fa-lg, h2 {
+    display: inline-block;
+    width: auto;
+    margin-left: 5px;
+}
+
+article {
+    padding: 14px 14px 70px 14px;
+}
+
+
+article a {
+    background-color: #FF9100;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    padding: 8px 10px;
+    margin: 10px 4px;
+    text-decoration: none;
+    float: right;
+}
+
 h2 {
     font-size: 24px;
     font-family: 'Oswald', sans-serif;
     color: #FF9100;
 }
 
-p {
+p, ul {
     font-size: 16px;
+    color: grey;
+}
+
+.section {
+    display: flex;
+}
+
+.paragraphes p {
+    margin-bottom: 10px;
+}
+
+.images {
+    flex: 0;
+    margin-right: 20px;
 }
 
 footer {
+    color: grey;
     width: 70%;
-    margin: auto
+    margin: auto;
+    text-align: center;
+    padding: 20px 0px 20px 0px;
 }
