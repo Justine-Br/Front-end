@@ -1,0 +1,31 @@
+body {
+    box-sizing: border-box;
+    background-color: #008B8D;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo {
+    
+}
+
+nav {
+    background-color: #4B3406;
+}
+
+nav a {
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 1.6em;
+    color: white;
+    text-decoration: none;
+}
+
+h1, h2, h3 {
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 1.4em;
+}
