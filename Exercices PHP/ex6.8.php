@@ -1,13 +1,11 @@
 <?php
 
-// Déclaration des variables
 $nvaleurs = 0;
 $positif = 0;
 $negatif = 0;
 $compteur = 0;
 $tab = array();
 
-// Début de l'algorithme
 echo "Entrez le nombre de valeurs : ";
 $saisie=fgets(STDIN);
 
